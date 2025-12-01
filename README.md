@@ -1,38 +1,59 @@
-# Hi, I'm Lucas 👋
+# Sentinel – AI-Assisted Post-Implementation Support Platform
 
-Technical Project Manager & Program Manager with 15+ years of experience 
-connecting infrastructure, security and software teams.
+Sentinel is a functional demo that shows how ticketing, documentation and 
+an AI assistant can work together to support clients and technical teams 
+after a project goes live.
 
-I design and run technical projects with strong focus on:
-- Infrastructure & Linux systems
-- Security & post-implementation support
-- AI-driven automation
-- Process optimization, KPIs and delivery management
+---
 
-## 🚀 Highlight Projects (Live Demos & Repos)
+## 🚨 Problem
 
-### 🔹 Sentinel – AI-Assisted Post-Implementation Support Platform  
-A complete demo of a system for clients, internal teams and admins.  
-Includes ticketing, documentation module, dashboards and AI support.
+After implementations (infra, cameras, software, security changes), 
+clients usually struggle with:
 
-**Repo:** https://github.com/luke7606/Sentinel  
-**Demo:** (add link when ready)
+- Multiple channels for support (email, WhatsApp, calls)
+- Scattered documentation
+- No clear ownership of incidents
+- Slow and manual triage
 
-### 🔹 Smart Support AI – Incident & Documentation Hub  
-Streamlit-based AI assistant for technical support, documentation search and incident routing.
+---
 
-**Repo:** https://github.com/luke7606/smart-support-ai  
+## ✅ Sentinel – Demo Solution
 
-### 🔹 Nexora – Personal Tech Platform  
-Brand platform for content, tools and demos.
+This demo centralizes post-implementation support in one place:
 
-**Repo:** https://github.com/luke7606/Nexora-io
+### For Clients
+- Create tickets with title, description and priority
+- Track ticket status (`New`, `In Progress`, `Resolved`)
 
-## 🛠 Tech & Tools
-Linux • Docker • Python (Streamlit) • React • GitHub Actions • DevOps basics  
-Project Management • SRE fundamentals • KPIs • ClickUp/Jira • Agile/Lean
+### For Internal Teams
+- See all tickets in a simple dashboard
+- Update status and manage the queue
 
-## 📬 Contact
-- LinkedIn: www.linkedin.com/in/lucas-mera/
-- Email: lucasmera@hotmail.com  
-# Sentinel
+### For Everyone
+- Search a **Knowledge Base** of articles
+- Ask an **AI Assistant** (simulated) that suggests solutions based on keywords
+
+> In a real implementation, the AI could be backed by OpenAI, a vector DB, 
+> or an internal knowledge index. In this demo we simulate that behaviour.
+
+---
+
+## 🧩 Tech Stack
+
+- **Frontend:** React + Vite
+- **State:** React hooks + `localStorage`
+- **Styling:** Simple CSS (no framework, easy to extend)
+- **Demo only:** No real backend. Data is stored in the browser.
+
+---
+
+## 🏁 How to Run Locally
+
+```bash
+git clone https://github.com/luke7606/Sentinel.git
+cd Sentinel
+
+cd frontend
+npm install
+npm run dev
