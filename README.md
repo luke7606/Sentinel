@@ -33,6 +33,6 @@ Linux • Docker • Python (Streamlit) • React • GitHub Actions • DevOps 
 Project Management • SRE fundamentals • KPIs • ClickUp/Jira • Agile/Lean
 
 ## 📬 Contact
-- LinkedIn: <link aquí>  
+- LinkedIn: www.linkedin.com/in/lucas-mera/
 - Email: lucasmera@hotmail.com  
 # Sentinel
